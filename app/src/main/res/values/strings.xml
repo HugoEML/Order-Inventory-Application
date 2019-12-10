@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+    <string name="tv1">Añadir</string>
+    <string name="tv2">Listar</string>
+    <string name="tv3">Buscar</string>
+    <string name="tv_add">Registrar Pedido</string>
+    <string name="et_code">Código</string>
+    <string name="et_client">Nombre del Cliente</string>
+    <string name="et_phone">Teléfono</string>
+    <string name="et_address">Dirección</string>
+    <string name="tv_products">Productos</string>
+    <string name="tv_1">1 lt.</string>
+    <string name="tv_2">2 lt.</string>
+    <string name="tv_3">3 lt.</string>
+    <string name="tv_cant">Cantidad</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_edit">Editar</string>
+    <string name="btn_search">Buscar</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="tv1_list">Detalles Pedidos</string>
+    <string name="tv2_list">Presiona el nombre del cliente</string>
+    <string name="tv3_list"></string>
+    <string name="btn_volver">Volver</string>
+    <string name="txt_buscar">Busca por el nombre</string>
+    <string name="btn_next">Siguiente</string>
+</resources>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".ProductActivity">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="@drawable/fanta"
+        app:layout_constraintEnd_toEndOf="@+id/sp3lt"
+        app:layout_constraintStart_toStartOf="@+id/sp3lt"
+        app:layout_constraintTop_toBottomOf="@+id/sp3lt" />
+
+    <CheckBox
+        android:id="@+id/cc3lt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/tv_3"
+        app:layout_constraintEnd_toEndOf="@+id/cc2lt"
+        app:layout_constraintStart_toStartOf="@+id/cc2lt"
+        app:layout_constraintTop_toBottomOf="@+id/cc2lt" />
+
+    <TextView
+        android:id="@+id/tv_products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/tv_products"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:tint="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_products"
+        app:layout_constraintEnd_toStartOf="@+id/tv_products"
+        app:layout_constraintTop_toTopOf="@+id/tv_products"
+        app:srcCompat="@drawable/product" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/cocacola"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:text="@string/tv_cant"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="@+id/textView14"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="@+id/textView14" />
+
+    <EditText
+        android:id="@+id/cant1"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cc1lt"
+        app:layout_constraintStart_toEndOf="@+id/cc1lt"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <EditText
+        android:id="@+id/cant2"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/cc3lt"
+        app:layout_constraintStart_toEndOf="@+id/cc2lt"
+        app:layout_constraintTop_toBottomOf="@+id/cc1lt" />
+
+    <EditText
+        android:id="@+id/cant3"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cc3lt"
+        app:layout_constraintStart_toEndOf="@+id/cc3lt"
+        app:layout_constraintTop_toTopOf="@+id/cc3lt" />
+
+    <CheckBox
+        android:id="@+id/cc1lt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_1"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <CheckBox
+        android:id="@+id/cc2lt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/tv_2"
+        app:layout_constraintEnd_toEndOf="@+id/cc1lt"
+        app:layout_constraintStart_toStartOf="@+id/cc1lt"
+        app:layout_constraintTop_toBottomOf="@+id/cc1lt" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@drawable/sprite"
+        app:layout_constraintEnd_toEndOf="@+id/cc3lt"
+        app:layout_constraintStart_toStartOf="@+id/cc3lt"
+        app:layout_constraintTop_toBottomOf="@+id/cc3lt" />
+
+    <EditText
+        android:id="@+id/cant4"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp1lt"
+        app:layout_constraintStart_toEndOf="@+id/sp1lt"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <EditText
+        android:id="@+id/cant5"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp2lt"
+        app:layout_constraintStart_toEndOf="@+id/sp2lt"
+        app:layout_constraintTop_toTopOf="@+id/sp2lt" />
+
+    <EditText
+        android:id="@+id/cant6"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintStart_toEndOf="@+id/sp3lt"
+        app:layout_constraintTop_toTopOf="@+id/sp3lt" />
+
+    <EditText
+        android:id="@+id/cant8"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ft2lt"
+        app:layout_constraintStart_toEndOf="@+id/ft2lt"
+        app:layout_constraintTop_toTopOf="@+id/ft2lt" />
+
+    <EditText
+        android:id="@+id/cant9"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ft3lt"
+        app:layout_constraintStart_toEndOf="@+id/ft3lt"
+        app:layout_constraintTop_toTopOf="@+id/ft3lt"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/cant7"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ft1lt"
+        app:layout_constraintStart_toEndOf="@+id/ft1lt"
+        app:layout_constraintTop_toTopOf="@+id/ft1lt" />
+
+    <CheckBox
+        android:id="@+id/sp1lt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_1"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <CheckBox
+        android:id="@+id/sp2lt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/tv_2"
+        app:layout_constraintEnd_toEndOf="@+id/sp1lt"
+        app:layout_constraintStart_toStartOf="@+id/sp1lt"
+        app:layout_constraintTop_toBottomOf="@+id/sp1lt" />
+
+    <CheckBox
+        android:id="@+id/sp3lt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/tv_3"
+        app:layout_constraintEnd_toEndOf="@+id/sp2lt"
+        app:layout_constraintStart_toStartOf="@+id/sp2lt"
+        app:layout_constraintTop_toBottomOf="@+id/sp2lt" />
+
+    <CheckBox
+        android:id="@+id/ft1lt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_1"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <CheckBox
+        android:id="@+id/ft2lt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/tv_2"
+        app:layout_constraintEnd_toEndOf="@+id/ft1lt"
+        app:layout_constraintStart_toStartOf="@+id/ft1lt"
+        app:layout_constraintTop_toBottomOf="@+id/ft1lt" />
+
+    <CheckBox
+        android:id="@+id/ft3lt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/tv_3"
+        app:layout_constraintEnd_toEndOf="@+id/ft2lt"
+        app:layout_constraintStart_toStartOf="@+id/ft2lt"
+        app:layout_constraintTop_toBottomOf="@+id/ft2lt" />
+
+    <CheckBox
+        android:id="@+id/v2lt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/tv_2"
+        app:layout_constraintEnd_toEndOf="@+id/textView20"
+        app:layout_constraintStart_toStartOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <EditText
+        android:id="@+id/cant10"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/v2lt"
+        app:layout_constraintStart_toEndOf="@+id/v2lt"
+        app:layout_constraintTop_toTopOf="@+id/v2lt" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@drawable/vital"
+        app:layout_constraintEnd_toEndOf="@+id/ft3lt"
+        app:layout_constraintStart_toStartOf="@+id/ft3lt"
+        app:layout_constraintTop_toBottomOf="@+id/ft3lt" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:onClick="SaveAll"
+        android:text="@string/btn_save"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@+id/cant10"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/cant10"
+        app:layout_constraintTop_toBottomOf="@+id/cant10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
